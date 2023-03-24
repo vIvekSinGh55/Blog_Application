@@ -2,7 +2,6 @@ package com.blog.application.security;
 
 import java.io.IOException;
 import java.util.Enumeration;
-import java.util.Iterator;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

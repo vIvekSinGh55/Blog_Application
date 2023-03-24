@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -34,6 +33,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class User implements UserDetails {
+
+	private static final long serialVersionUID = 1L;
 
 	@Id
 	@Column(name= "user_id")
